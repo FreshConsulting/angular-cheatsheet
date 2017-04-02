@@ -46,15 +46,6 @@ Open `src/app/app.component.ts` and make following changes.
 ```
 import { AngularFire, FirebaseListObservable } from 'angularfire2';
 
-// Firebase Config
-export const firebaseConfig = {
-  apiKey: '<your-key>',
-  authDomain: '<your-project-authdomain>',
-  databaseURL: '<your-database-URL>',
-  storageBucket: '<your-storage-bucket>',
-  messagingSenderId: '<your-messaging-sender-id>'
-};
-
 export class AppComponent {
     ...
   constructor(af: AngularFire) {
