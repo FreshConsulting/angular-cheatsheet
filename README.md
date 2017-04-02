@@ -1,6 +1,6 @@
 # Angular Scaffolding
 
-This is a Angular scaffolding guide using latest Angular CLI with recommended options. My aim is to minimize Googling for setting up frequently desired features.
+This is an Angular scaffolding guide using latest Angular CLI with recommended options. My aim is to minimize Googling for setting up frequently desired features.
 
 ## Pre-requisite
 
@@ -17,11 +17,14 @@ Do you use [Yarn](https://github.com/yarnpkg/yarn)? You can [set Yarn as the def
 
 First of all, install [Angular CLI](https://cli.angular.io/).
 
+Then, run following command to let CLI do all the base scaffolding work for you. Angular CLI will generate build script, root app module, unit/e2e testing integration, environments, etc.
+
 `ng new PROJECT_NAME`
 
 Optional arguments, [see more](https://www.sitepoint.com/understanding-component-architecture-angular/):
 
 - `--style=scss`: Use SCSS instead of CSS 
 - `--routing=true`: Include Router
-- `--inline-style=true`: Do not auto-generate SCSS style file when using Angular CLI
-- `--inline-templatehtml=true` Do not auto-generate template file when using Angular CLI
+- `--inline-style=true`: Do not generate stylesheet files
+- `--inline-template=true` Do not auto-generate template files
+
