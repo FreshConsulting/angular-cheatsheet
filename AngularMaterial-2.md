@@ -51,3 +51,11 @@ Include the following link tag in `src/index.html`
 ## Start using Angular Material components
 
 Head over to [Angular Material](https://material.angular.io/components) to see all the supported components.
+
+For example, try adding the following button element inside one of your components.
+
+`<button md-raised-button color="primary">This is it!</button>`
+
+It should render like the following!
+
+![Angular Material](assets/angular-material.png)
