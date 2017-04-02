@@ -2,6 +2,11 @@
 
 This is an Angular scaffolding guide using latest Angular CLI with recommended options. My aim is to minimize Googling for setting up frequently desired features.
 
+## Additional Documents
+
++ Install CSS Frameworks: [Angular Material 2](AngularMaterial-2.md)
++ Install AngulareFire 2 (Coming Soon)
+
 ## Pre-requisite
 
 + Latest stable Node.js, [n](https://github.com/tj/n) is the recommended Node.js version manager
