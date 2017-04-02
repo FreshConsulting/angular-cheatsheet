@@ -14,7 +14,7 @@ This is an Angular scaffolding guide using latest Angular CLI with recommended o
 
 ## Set Yarn as the default package manager
 
-Do you use [Yarn](https://github.com/yarnpkg/yarn)? You can [set Yarn as the default package manager](https://medium.com/@beeman/using-yarn-with-angular-cli-db2e318e43c5) when you scaffold Angular using Angular CLI [1].
+Do you use [Yarn](https://github.com/yarnpkg/yarn)? You can [set Yarn as the default package manager](https://medium.com/@beeman/using-yarn-with-angular-cli-db2e318e43c5) when you scaffold Angular using Angular CLI.
 
 `ng set --global packageManager=yarn`
 
@@ -28,10 +28,10 @@ Then, run following command to let CLI do all the base scaffolding work for you.
 
 Optional arguments, [see more](https://www.sitepoint.com/understanding-component-architecture-angular/):
 
-- `--style=scss`: Use SCSS instead of CSS 
-- `--routing=true`: Include Router
-- `--inline-style=true`: Do not generate stylesheet files
-- `--inline-template=true` Do not auto-generate template files
+- `--style=scss` — Use SCSS instead of CSS 
+- `--routing=true` — Include Router
+- `--inline-style=true` — Do not generate stylesheet files
+- `--inline-template=true` — Do not auto-generate template files
 
 ## Create the main component
 
@@ -43,8 +43,8 @@ If you are unsure about how to structure the app as you are scaffolding, start w
 
 Here you can use optinal arguments as well:
 
-- `--inline-style=true`: Do not generate stylesheet file
-- `--inline-template=true` Do not auto-generate template file
+- `--inline-style=true` — Do not generate stylesheet file
+- `--inline-template=true` — Do not auto-generate template file
 
 ### Component vs ngModule
 
