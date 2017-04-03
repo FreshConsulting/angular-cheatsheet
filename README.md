@@ -54,8 +54,7 @@ Are you curious why we are not using [ngModule](http://blog.angular-university.i
 
 Now let's open your routing module which is created at `src/app/app-routing.module.ts` if you've used `--routing=true` argument as you generated the app with Angular CLI.
 
-```
-import ... // other imports
+```typescript
 import { MainComponent } from './main/main.component';
 ```
 
@@ -63,7 +62,7 @@ import { MainComponent } from './main/main.component';
 
 In the same file, let's include MainComponent to routes, assuming we want to load it as the root path in the URL. See other [Router options ](https://angular.io/docs/ts/latest/guide/router.html) if you are curious.
 
-```
+```typescript
 const routes: Routes = [
   ...
   {

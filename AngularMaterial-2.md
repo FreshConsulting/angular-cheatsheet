@@ -14,7 +14,7 @@ Angular Material 2 has an official [Getting Started](https://github.com/angular/
 
 Open `src/app/app.module.ts` and add the following modules.
 
-```
+```typescript
 import { MaterialModule } from '@angular/material';
 
 @NgModule({
@@ -32,11 +32,15 @@ import { MaterialModule } from '@angular/material';
 
 Open `src/style.[scss/less/css]` and add the following import statement at the top.
 
-`@import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';`
+```css
+@import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
+```
 
 Open `src/index.html` and add `mat-app-background` class to the body tag.
 
-`<body class="mat-app-background">`
+```html
+<body class="mat-app-background">
+```
 
 ## Create Custom Theme
 
@@ -46,7 +50,9 @@ If you are ready to get started with your custom theme, follow the official [The
 
 Include the following link tag in `src/index.html`
 
-`<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">`
+```html
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+```
 
 ## Start using Angular Material components
 
@@ -54,7 +60,9 @@ Head over to [Angular Material](https://material.angular.io/components) to see a
 
 For example, try adding the following button element inside one of your components.
 
-`<button md-raised-button color="primary">This is it!</button>`
+```html
+<button md-raised-button color="primary">This is it!</button>
+```
 
 It should render like the following!
 
