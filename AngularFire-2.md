@@ -17,7 +17,7 @@ AngularFire 2 has an official [Installation & Setup](https://github.com/angular/
 
 Open `src/app/app.module.ts` and add the following setup.
 
-```
+```typescript
 import { AngularFireModule } from 'angularfire2';
 
 // Firebase Config
@@ -39,11 +39,34 @@ export const firebaseConfig = {
 
 ```
 
+## Get Your Keys
+
+### apiKey
+
+![apiKey](assets/firebase-api-key.png)
+
+### authDomain
+
+![authDomain](assets/firebase-auth-domain.png)
+
+### databaseURL
+
+![databaseURL](assets/firebase-database-url.png)
+
+### storageBucket
+
+![storageBucket](assets/firebase-storage-bucket.png)
+
+### messagingSenderId
+
+![messagingSenderId](assets/firebase-messaging-sender-id.png)
+
+
 ## Inject AngularFire
 
 Open `src/app/app.component.ts` and make following changes.
 
-```
+```typescript
 import { AngularFire, FirebaseListObservable } from 'angularfire2';
 
 export class AppComponent {
@@ -60,7 +83,7 @@ export class AppComponent {
 
 In any component where `AngularFire` and `FirebaseListObservable` (or others) is injected, bind to a Firebase list, e.g. /items.
 
-```
+```typescript
 export class ... {
   items: FirebaseListObservable<any[]>;
   constructor(af: AngularFire) {
