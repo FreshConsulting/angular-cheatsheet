@@ -12,15 +12,16 @@ Angular Material 2 has an official [Getting Started](https://github.com/angular/
 
 ## Include Modules
 
-Open `src/app/app.module.ts` and add the following modules.
+Open `src/app/app.module.ts` and add specific Angular Material modules and hammerjs.
 
 ```typescript
-import { MaterialModule } from '@angular/material';
+import { MdButtonModule } from '@angular/material';
+import 'hammerjs';
 
 @NgModule({
   ...
   imports: [
-    MaterialModule,
+    MdButtonModule,
     BrowserAnimationsModule
   ],
   ...
