@@ -33,7 +33,7 @@ import { MaterialModule } from '@angular/material';
 Open `src/style.[scss/less/css]` and add the following import statement at the top.
 
 ```css
-@import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 ```
 
 Open `src/index.html` and add `mat-app-background` class to the body tag.
