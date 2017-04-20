@@ -6,6 +6,7 @@ This is an Angular scaffolding guide using latest Angular CLI with recommended o
 
 + Install CSS Frameworks: [Angular Material 2](AngularMaterial-2.md)
 + Install serverless databases: [AngulareFire 2](AngularFire-2.md)
++ Install third-party libraries: [Third Party Libraries](ThirdPartyLibraries.md)
 
 ## Pre-requisite
 
