@@ -12,7 +12,7 @@ Specifically, we will look at installing [Moment.js](https://momentjs.com/)
 
 Open `angular-cli.json` and add moment.
 
-```json
+```
 {
   ...
   "apps": [
