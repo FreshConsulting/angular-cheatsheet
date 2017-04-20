@@ -1,6 +1,6 @@
-# Angular Scaffolding
+# Angular Cheatsheet
 
-This is an Angular scaffolding guide using latest Angular CLI with recommended options. My aim is to minimize Googling for setting up frequently desired features.
+This is an Angular cheatsheet for projects using latest Angular CLI. Our aim is to minimize Googling or hooping through countless docs for setting up popular features.
 
 ## Additional Documents
 
