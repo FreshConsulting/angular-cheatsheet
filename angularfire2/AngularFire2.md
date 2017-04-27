@@ -30,23 +30,23 @@ Reference [Setup @NgModule](https://github.com/angular/angularfire2/blob/master/
 
 ### apiKey
 
-![apiKey](assets/firebase-api-key.png)
+![apiKey](../assets/firebase-api-key.png)
 
 ### authDomain
 
-![authDomain](assets/firebase-auth-domain.png)
+![authDomain](../assets/firebase-auth-domain.png)
 
 ### databaseURL
 
-![databaseURL](assets/firebase-database-url.png)
+![databaseURL](../assets/firebase-database-url.png)
 
 ### storageBucket
 
-![storageBucket](assets/firebase-storage-bucket.png)
+![storageBucket](../assets/firebase-storage-bucket.png)
 
 ### messagingSenderId
 
-![messagingSenderId](assets/firebase-messaging-sender-id.png)
+![messagingSenderId](../assets/firebase-messaging-sender-id.png)
 
 
 ## Test Drive AngularFire
