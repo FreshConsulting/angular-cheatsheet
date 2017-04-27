@@ -2,10 +2,10 @@
 
 This is an Angular cheatsheet for projects using latest Angular CLI. Our aim is to minimize Googling or hooping through countless docs for setting up popular features.
 
-## Additional Documents
+## Beyond Basics
 
 + Install CSS Frameworks: [Angular Material 2](AngularMaterial-2.md)
-+ Install serverless databases: [AngulareFire2 Setup](angularfire2/AngularFire2.md) [AngulareFire2 for AuthGuard](angularfire2/AngularFire2-AuthGuard.md)
++ Integrate Firebase2: [AngulareFire2 Setup](angularfire2/AngularFire2.md), [AngulareFire2 for AuthGuard](angularfire2/AngularFire2-AuthGuard.md)
 + Install third-party libraries: [Third Party Libraries](ThirdPartyLibraries.md)
 
 ## Pre-requisite
