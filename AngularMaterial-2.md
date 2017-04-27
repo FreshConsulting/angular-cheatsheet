@@ -6,15 +6,16 @@ Angular Material 2 has an official [Getting Started](https://github.com/angular/
 
 `yarn add @angular/material`
 
-`yarn add @angular/animation`
+`yarn add @angular/animations`
 
 `yarn add hammerjs`
 
 ## Include Modules
 
-Open `src/app/app.module.ts` and add specific Angular Material modules and hammerjs.
+Open `src/app/app.module.ts` and add specific Angular Material modules and hammerjs. Here were are including just the MD Button.
 
 ```typescript
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MdButtonModule } from '@angular/material';
 import 'hammerjs';
 
