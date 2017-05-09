@@ -91,3 +91,31 @@ And in the template, simply add a button that binds to the click handler.
 ```html
 <button (click)="login()">Login</button>
 ```
+
+## Optional: Set dashbaord as home instead
+
+Does your app require user login before they can see anything? If so you can set guarded module as the default empty path, and redirect users to '/login' path.
+
+Once you create `LoginComponent`, open `src/app/app-routing.module.ts` and follow the code below.
+
+```typescript
+import { LoginComponent } from './login/login.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { AuthGuardService } from './services/auth-guard.service';
+...
+const routes: Routes = [
+  ...
+  {
+    path: '',
+    component: DashboardComponent,
+    canActivate: [AuthGuardService]
+  },
+  {
+    path: 'login',
+    component: LoginComponent,
+  }
+  ...
+];
+```
+
+Then, be sure to update redirect paths in `src/app/services/auth.service.ts` so users are redirected to `login` if they are not logged in, and to `dashbaord` if the arey.
