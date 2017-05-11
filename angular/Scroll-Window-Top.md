@@ -11,14 +11,27 @@ export class AppComponent implements OnInit {
     private router: Router
   ) {}
 
-  this.router.events.subscribe((evt) => {
-    if (evt instanceof NavigationEnd) {
+  this.router.events
+    .filter(event => event instanceof NavigationEnd)
+    .subscribe(() => {
       window.scrollTo(0, 0);
-    }
-  });
+    });
 }
+```
+
+## Scroll to particular element
+
+Optionally, you can scroll to the top of particular element. This is useful for when your web page layout is setup so only the content scroll but not the document iself.
+
+```typescript
+this.router.events
+  .filter(event => event instanceof NavigationEnd)
+  .subscribe(() => {
+    document.querySelector('.mat-sidenav-content').scrollTop = 0;
+  });
 ```
 
 #### References
 
 + [Angular 2 Scroll to top on Route Change](http://stackoverflow.com/questions/39601026/angular-2-scroll-to-top-on-route-change)
++ [Feature: Sidenav or Route Scroll Service] (https://github.com/angular/material2/issues/4280)
